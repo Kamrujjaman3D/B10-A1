@@ -144,5 +144,46 @@ section {
 }
 /* My current target section */
 .technologe-section {
+  margin-top: 48px;
   display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 24px;
+}
+.title {
+  margin-top: 32px;
+}
+.technologe-section a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.margin {
+  margin-bottom: 24px;
+}
+.technologe-container-1 {
+  border-radius: 16px;
+  padding: 40px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.technologe-container-2 {
+  border-radius: 16px;
+  padding: 40px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.technologe-container-3 {
+  border-radius: 16px;
+  padding: 40px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.technologe-container-1,
+.technologe-container-2,
+.technologe-container-3 {
+  width: 33%;
+  margin: 0 auto;
 }
