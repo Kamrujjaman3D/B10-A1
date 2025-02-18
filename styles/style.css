@@ -13,6 +13,11 @@ section {
   margin: 0 auto;
   margin-top: 110px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* banner section style */
 .header {
   background-image: url(../assets/Hero-bg.png);
@@ -58,6 +63,13 @@ section {
   text-align: center;
   margin-top: 32px;
 }
+.banner-container a {
+  color: #fff;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
 /* web development section */
 .web-development {
   margin-top: 97px;
@@ -92,6 +104,9 @@ section {
 }
 .card-txt-container {
   width: 60%;
+}
+.card-container a {
+  text-decoration: none;
 }
 .card-title {
   color: rgba(13, 19, 33, 0.7);
@@ -205,7 +220,7 @@ a {
   height: 219px;
 }
 /* support section style */
-.support {
+#support-section {
   background-image: url(../assets/handshake.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -233,5 +248,47 @@ a {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+}
+.support-inp {
+  margin-top: 24px;
+}
+.support-inp input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 18px 20px;
+  background: rgb(255, 255, 255);
+  width: 520px;
+  height: 55px;
+}
+.support-inp .submit-btn {
+  padding: 17px 22px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  height: 55px;
+  width: 110px;
+}
+/* Footer section style */
+#footer {
+  border-radius: 16px;
+  margin-top: 80px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 39px 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.footer-title {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
   text-align: center;
 }
